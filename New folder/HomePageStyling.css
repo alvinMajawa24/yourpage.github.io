@@ -1,0 +1,69 @@
+header {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color with transparency */
+}
+header a{
+    text-align: left;
+    color:rgb(127, 161, 255);
+}
+header a:hover{
+    padding: 5px 20px; /* Adjust padding as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    background-color: black;
+    border: none; /* Remove the border */
+    color: rgb(53, 145, 226);
+    cursor: pointer;
+    transition: background-color 0.8s ease; /* Smooth transition */
+
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Prevent the underline from affecting other elements */
+    border-width: 0.5px solid rgb(12, 130, 154);
+    border-radius: 3.5px;
+    margin: 2px;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color with transparency */
+}
+h3 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(16, 14, 18, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color with transparency */
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-image: url(home1.jpg);
+    background-repeat: no-repeat;
+    background-position: center 25%; /* Center the background image */
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+button {
+    padding: 15px 30px; /* Adjust padding as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    background-color: transparent;
+    border: none; /* Remove the border */
+    color: rgb(53, 145, 226);
+    cursor: pointer;
+    transition: background-color 0.8s ease; /* Smooth transition */
+
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Prevent the underline from affecting other elements */
+    border-width: 1px solid rgb(228, 233, 234);
+    border-radius: 7px;
+    margin: 10px;
+}
+button:hover {
+    background-color: rgb(192, 39, 222);
+    color: white;
+    text-shadow: 50%;
+}
+button a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    text-shadow: 2px 2px 4px rgba(16, 14, 18, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color with transparency */
+}
